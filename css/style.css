@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	scroll-behavior:smooth;
+	font-family: 'Lato', sans-serif;
+
+}
+navbar{
+	transition:0.6s;
+}
+hr {
+    width: 5% !important;
+    margin: auto !important;
+    background: #00c92e !important;
+}
+.sticky{
+	background: linear-gradient(to right, #17569e 0%, #07544a 0%, #072831 100%);
+	transition:0.6s;
+}
+/* for cart fade-in */
+.modal-backdrop.fade.show {
+    z-index: 999;
+}
+button.for-primary-setting {
+    background: transparent;
+    font-size: 30px;
+    border: none;
+	
+}
+button.for-primary-setting:hover{
+	background: transparent;
+    font-size: 30px;
+    border: none;
+}
+
+img{
+	width:100%;
+	height:100%;
+}
+header{
+	width:100%;
+	height:100vh;
+}
+.navbar:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .4;
+	z-index: -1;
+	background: linear-gradient(to right, #1e5799 0%, #008978 0%, #009fc7 100%);;
+}
+
+i.fas.fa-cart-arrow-down {
+    font-size: 30px;
+    color: #fff;
+}
+
+.logo {
+    width: 250px;
+    text-align: center;
+}
+span.logoclr {
+    color: #29a045;
+    font-size: 26px;
+    font-weight: 700;
+}
+.backgroundVideo {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #00acab;
+}
+.backgroundVideo video{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #008c06 !important;
+    background: #dddddd29;
+    padding: 20px;
+    width: 80%;
+    text-align:center;
+}
+
+section.propular_product {
+    position: relative;
+}
+section.propular_product:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #327479;
+	clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 69%);
+	z-index: -1;
+}
+
+
+.card{
+	transition: all 0.3s;
+}
+.card:hover {
+    box-shadow: 4px 14px 38px -8px;
+	transform:translateY(-8px);
+}
+img.card-img-top {
+    width: 100%;
+    height: 250px;
+}
+.box img{
+	width:100%;
+	height:100%;
+}
+.carousel-indicators .active{
+	background-color:red!important;
+}
+
+.box {
+    width: 350px;
+    height: 300px;
+}
+a.btn.btn-success {
+    background: #32747a;
+}
+footer {
+    width: 100%;
+    height: 80vh;
+    background: #327479;
+	clip-path: polygon(50% 4%, 100% 0, 100% 100%, 49% 100%, 0 100%, 0 0);
+
+}
+
+span.logoclr2 {
+    color: #29a045;
+    font-size: 28px;
+    font-weight: 700;
+}
+ul{
+	text-decoration:none !important;
+}
+ul li{
+	list-style:none !important;
+	color:#fff !important;
+}
+ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+ul li a:hover{
+	color:#29a045;
+}
+.foricon a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.foricon a:hover{
+	text-decoration:none;
+	color:#000;
+}
+.foricon a i {
+    color: white;
+    font-size: 30px;
+}
+.foricon a i:hover {
+    color: #0192a4;
+}
+
+.col-12.col-sm-12.col-lg-12.foricon.text-center {
+    border-bottom: 1px solid #004f55;
+    padding: 0px 0px 10px 0px;
+}
+
+img.card-img-top {
+    width: 100%;
+    height: 250px;
+}
+.foreimgsetting{
+	position:relative;
+}
+p.tocntimg {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    background: #29a045;
+    bottom: 0%;
+    left: 30%;
+    padding: 0px 14px;
+	border-radius:4px;
+}
+p.tocntimg:after{
+	content:'>';
+}
+img.forprice {
+    position: relative !important;
+}
+p.price {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 20%;
+    text-align: center;
+    color: #00b307;
+	font-size:18px;
+	font-weight:800;
+}
+p.pricepplr {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    background: #0dff17;
+    padding: 3px 10px;
+}
+p.camprice {
+    position: absolute;
+    top: 0;
+    left: auto;
+    background: yellow;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px;
+}
+i.fas.fa-user-circle {
+    font-size: 36px;
+    color: #fff;
+}
+#map{
+	width:100%;
+	height:350px;
+}
+iframe{
+	width:100%;
+	height:100%;
+}
+
+.form-group{
+	position:relative;
+}
+.textup{
+	position:absolute;
+	top: 5px;
+	left: 30px;
+	transition:all 1s;
+	z-index:1;
+}
+.form-group input:focus ~ label,
+.form-group input:valid ~ label{
+	top: -20px !important;
+	left:0;
+	font-size:12px;
+	font-weight:bold;
+
+}
+button.btn.btn-success {
+    position: fixed;
+    top: 50%;
+    right: 1%;
+}
+
+
+
+
+
+
+
+
+	@media screen and (max-width:768px){
+		.box {
+			width: 100%;
+			height: 300px;
+	}
+	.card{
+		margin-top:1rem;
+	}
+	footer {
+    width: 100%;
+    height: auto;
+
+}
+}
+
+
